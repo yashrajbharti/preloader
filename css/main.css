@@ -37,3 +37,30 @@
     0%{height: 0px}
     100%{height: 6px;}
 }
+
+
+/*
+.spinner-2:before{
+content: "";
+box-sizing: border-box;
+position: absolute;
+top: 50%;
+left: 50%;
+height: 60px;
+width:60px;
+margin-top: -30px;
+margin-left: -30px;
+border-radius: 50%;
+border: 2px solid transparent;
+z-index: 99;
+border-top: #388a6b 3px solid;
+border-bottom: #388a6b 3px solid;
+animation: spinner 0.7s ease infinite;
+}
+
+@keyframes spinner{
+to{
+  transform: rotate(360deg);
+}
+}
+*/
