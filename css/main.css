@@ -1,0 +1,39 @@
+*{
+  background-color: #000;
+}
+
+.cafe{
+   width: 20px;
+     height: 24px;
+    border: 1px rgb(255,255,255) solid;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+
+}
+.cafe:after, .cafe:before{
+    position: absolute;
+     content: "";
+}
+.cafe:after{
+   width: 5px;
+     height: 12px;
+    border: 2px #fff solid;
+    border-left: none;
+     border-radius: 50%;
+  left: 20px;
+}
+.cafe:before{
+    width: 1px;
+    height: 6px;
+    background-color: rgb(255,255,255);
+    top: -10px;
+     box-shadow: 5px 0px 0px 0px rgb(255,255,255),
+                10px 0px 0px 0px rgb(255,255,255),
+                15px 0px 0px 0px rgb(255,255,255);
+            animation: steam 1s linear infinite alternate;
+}
+
+@keyframes steam{
+    0%{height: 0px}
+    100%{height: 6px;}
+}
